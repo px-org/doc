@@ -154,7 +154,7 @@ $ nohup go run main.go > PanIndex.log &
 $ CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -o PanIndex
 $ nohup ./PanIndex &
 ```
-更多平台编译参考：[PanIndex-build-action](https://github.com/libsgh/PanIndex-build-action)
+交叉编译参考：[build-action](https://github.com/px-org/build-action)
 
 ### Docker
 参考下面命令，映射`/app/data`目录到宿主机避免重启docker数据丢失！

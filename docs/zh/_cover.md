@@ -12,6 +12,6 @@
 - 访问控制
 - 分流
 
-[GitHub](https://github.com/libsgh/PanIndex)
+[GitHub](https://github.com/px-org/PanIndex)
 [Demo](https://t1.noki.icu)
 [Getting Started](docs/zh/introduction.md)
