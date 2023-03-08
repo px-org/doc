@@ -8,7 +8,7 @@
 - [Changelog](/docs/zh/changelog.md)
 - [捐助](/docs/zh/donate.md)
 - **链接**
-- [![Nightly.link](../../_media/link.png)Nightly.link](https://nightly.link/libsgh/PanIndex/workflows/nightly-build/dev)
+- [![Nightly.link](../../_media/link.png)Nightly.link](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev)
 - [![Demo](../../_media/demo.png)Demo](https://t1.noki.icu)
 - [![Demo.Next](../../_media/demo.png)Demo.Next](https://t2.noki.icu)
 - [![PanIndex Tool](../../_media/demo.png)PanIndex Tool](https://pt.noki.icu/)

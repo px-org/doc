@@ -37,12 +37,12 @@
 
 ## 联系与支持
 
-- [GitHub Issues](https://github.com/libsgh/PanIndex/issues)
-- [GitHub Discussions](https://github.com/libsgh/PanIndex/discussions)
+- [GitHub Issues](https://github.com/px-org/PanIndex/issues)
+- [GitHub Discussions](https://github.com/px-org/PanIndex/discussions)
 - **[Telegram讨论组(活跃)](https://t.me/PanIndex)**
 - QQ群: 760166719
 
 
 ## License
 
- [AGPL3 license](https://github.com/libsgh/PanIndex/blob/main/LICENSE).
+ [AGPL3 license](https://github.com/px-org/PanIndex/blob/main/LICENSE).

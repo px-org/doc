@@ -1,6 +1,6 @@
 ![logo](/_media/index.png)
 
-# PanIndex <small>v3.1.2</small>
+# PanIndex <small></small>
 > 一个简易的网盘目录列表.
 >
 - 跨平台、易部署

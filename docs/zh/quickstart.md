@@ -6,17 +6,17 @@
 - Darwin（amd64）
 
 ## 下载
-预编译的二进制文件压缩包可在 [Github Release](https://github.com/libsgh/PanIndex/releases "release")下载，解压后方可使用。
+预编译的二进制文件压缩包可在 [Github Release](https://github.com/px-org/PanIndex/releases "release")下载，解压后方可使用。
 
-基于开发分支的自动构建版本：[Nightly Build](https://nightly.link/libsgh/PanIndex/workflows/nightly-build/dev "build")，仅构建部分平台
+基于开发分支的自动构建版本：[Nightly Build](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev "build")，仅构建部分平台
 
 ## 安装
 
 ### Bash脚本
 - 基于`systemd`的安装脚本，以`root`账户运行
-- 脚本仓库：https://github.com/libsgh/PanIndex-install
+- 脚本仓库：https://github.com/px-org/PanIndex-install
 ```bash
-$ bash <(curl -L https://github.com/libsgh/PanIndex-install/raw/main/install-release.sh) -h
+$ bash <(curl -L https://github.com/px-org/PanIndex-install/raw/main/install-release.sh) -h
 ```
 
 ### 直接运行
@@ -86,7 +86,7 @@ $ nohup ./PanIndex > PanIndex.log &
 ```bash
 $ mkdir /usr/local/etc/PanIndex
 $ cd /usr/local/etc/PanIndex
-$ wget https://github.com/libsgh/PanIndex/releases/download/v3.0.4/PanIndex-linux-amd64.tar.gz
+$ wget https://github.com/px-org/PanIndex/releases/download/v3.1.2/PanIndex-linux-amd64.tar.gz
 $ tar --no-same-owner -xvf PanIndex-linux-amd64.tar.gz
 $ mv PanIndex-linux-amd64 PanIndex
 $ cp PanIndex /usr/local/bin/
@@ -112,7 +112,7 @@ $ vim /etc/systemd/system/PanIndex.service
 ```
 [Unit]
 Description=PanIndex Service
-Documentation=https://libsgh.github.io/PanIndex/
+Documentation=https://docs.noki.icu
 After=network.target
 [Service]
 User=root
@@ -144,7 +144,7 @@ environment=a="1",b="2"
 - 设置go环境变量`go env -w GO111MODULE=on`
 - 如果是国内服务器，设置下代理`go env -w GOPROXY=https://goproxy.cn,direct`
 ```bash
-$ git clone https://github.com/libsgh/PanIndex.git
+$ git clone https://github.com/px-org/PanIndex.git
 $ cd PanIndex
 $ nohup go run main.go > PanIndex.log &
 ```
@@ -254,7 +254,7 @@ docker run -itd \
 
    ```bash
    # cd /www/wwwroot/test.noki.icu
-   # wget https://github.com/libsgh/PanIndex/releases/download/v3.0.4/PanIndex-linux-amd64.tar.gz
+   # wget https://github.com/px-org/PanIndex/releases/download/v3.0.4/PanIndex-linux-amd64.tar.gz
    # tar -zxvf PanIndex-linux-amd64.tar.gz
    # mv PanIndex-linux-amd64 PanIndex
    # 复制PanIndex文件路径
@@ -284,22 +284,22 @@ environment=PORT="5239",LOG_LEVEL="debug"
 ## 其他平台部署
 
 ### Heroku(即将收费)
-[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/libsgh/PanIndex-h.git)
+[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/px-org/PanIndex-h.git)
 
-https://github.com/libsgh/PanIndex-h
+https://github.com/px-org/PanIndex-h
 ### Railway
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/RYVkB4?referralCode=W9nIBo)
 
-https://github.com/libsgh/PanIndex-railway
+https://github.com/px-org/PanIndex-railway
 ### ~~Okteto~~
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/libsgh/PanIndex-okteto&branch=main)
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/px-org/PanIndex-okteto&branch=main)
 > 可能导致封号，暂时还不清楚封号原因，可能有人用PanIndex做违反用户协议的事情受到了牵连，如果你已经封号的话可以联系下客服，概率解封。
 
-https://github.com/libsgh/PanIndex-okteto
+https://github.com/px-org/PanIndex-okteto
 ### koyeb
 > koyeb账号申请并不容易，需要联系官方的人手动给你审核，不然就是等几个月...koyeb还有个最大问题是：数据配置无法保留，会被重置，除非连接外部数据库。
 基于以上，如果你仍想部署的话，直接使用Docker镜像配置好环境变量即可，不需要特殊部署脚本。
 
 ### fly.io
 
-https://github.com/libsgh/PanIndex-fly
+https://github.com/px-org/PanIndex-fly

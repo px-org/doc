@@ -1,4 +1,4 @@
-### [v3.1.2](https://github.com/libsgh/PanIndex/compare/v3.1.1...v3.1.2) (2023-02-16)
+### [v3.1.2](https://github.com/px-org/PanIndex/compare/v3.1.1...v3.1.2) (2023-02-16)
 
 > 预告vuetify主题，基于Vue3实现的纯静态UI，跳转更顺畅，测试预览：https://t2.noki.icu ，虽然计划接口和页面分离，但会尽量满足一站式部署。
 
@@ -17,7 +17,7 @@
 - 增加一些公共接口，方便接入vuetify主题
 - 文档更新
 
-### [v3.1.1](https://github.com/libsgh/PanIndex/compare/v3.1.0...v3.1.1) (2022-11-28)
+### [v3.1.1](https://github.com/px-org/PanIndex/compare/v3.1.0...v3.1.1) (2022-11-28)
 > 温馨提示：该版本涉及页面改动，升级时需要使用新版本ui，对于页面的个性化调整，尽量使用js或css，而不是直接修改页面，这样方便后期升级！
 
 ##### Bug Fixes
@@ -38,7 +38,7 @@
 - 启动配置（config.json、Env、Program Args）增加参数`ui`，用于自定义UI目录，默认将从执行程序所在目录查找
 - 更新Go构建版本1.19
 
-### [v3.1.0](https://github.com/libsgh/PanIndex/compare/v3.0.9...v3.1.0) (2022-08-24)
+### [v3.1.0](https://github.com/px-org/PanIndex/compare/v3.0.9...v3.1.0) (2022-08-24)
 
 ##### Bug Fixes
 
@@ -48,7 +48,7 @@
 - 分流添加页面高度调整
 
 
-### [v3.0.9](https://github.com/libsgh/PanIndex/compare/v3.0.8...v3.0.9) (2022-08-23)
+### [v3.0.9](https://github.com/px-org/PanIndex/compare/v3.0.8...v3.0.9) (2022-08-23)
 
 ##### Bug Fixes
 
@@ -86,12 +86,12 @@
 
 - 增加404页面
 
-- 基于dev分支的自动构建版本，[nightly](https://nightly.link/libsgh/PanIndex/workflows/nightly-build/dev)
+- 基于dev分支的自动构建版本，[nightly](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev)
 
 - 基于dev分支的docker镜像：iicm/pan-index:dev
 
 
-### [v3.0.8](https://github.com/libsgh/PanIndex/compare/v3.0.7...v3.0.8) (2022-05-08)
+### [v3.0.8](https://github.com/px-org/PanIndex/compare/v3.0.7...v3.0.8) (2022-05-08)
 
 ##### Bug Fixes
 
@@ -110,7 +110,7 @@
 - 分页、搜索优化
 - 播放增强
 
-### [v3.0.7](https://github.com/libsgh/PanIndex/compare/v3.0.6...v3.0.7) (2022-04-19)
+### [v3.0.7](https://github.com/px-org/PanIndex/compare/v3.0.6...v3.0.7) (2022-04-19)
 
 ##### Bug Fixes
 
@@ -125,7 +125,7 @@
 - HEAD.md、README.md渲染优化
 - 预览页去除ID信息
 
-### [v3.0.6](https://github.com/libsgh/PanIndex/compare/v3.0.0...v3.0.6) (2022-04-01)
+### [v3.0.6](https://github.com/px-org/PanIndex/compare/v3.0.0...v3.0.6) (2022-04-01)
 
 ##### Bug Fixes
 
@@ -144,7 +144,7 @@
 - 配置项：音频、视频字幕加载、弹幕库支持
 - 兼容2.x文件直链访问，`/d_0/xx`
 
-### [v3.0.0](https://github.com/libsgh/PanIndex/compare/v2.0.9...v3.0.0) (2022-03-04)
+### [v3.0.0](https://github.com/px-org/PanIndex/compare/v2.0.9...v3.0.0) (2022-03-04)
 
 #### 注意：由于新版改动较大，建议重新安装，此为V3测试版本，如遇BUG请及时反馈
 
@@ -166,7 +166,7 @@
 16. 密码目录访问优化
 17. 流量中转
 
-### [v2.0.9](https://github.com/libsgh/PanIndex/compare/v2.0.8...v2.0.9) (2021-12-20)
+### [v2.0.9](https://github.com/px-org/PanIndex/compare/v2.0.8...v2.0.9) (2021-12-20)
 
 ##### Bug Fixes
 
@@ -174,7 +174,7 @@
 
 - 修改mdui主题及后台引用的js、css从本地读取
 
-### [v2.0.8](https://github.com/libsgh/PanIndex/compare/v2.0.7...v2.0.8) (2021-11-15)
+### [v2.0.8](https://github.com/px-org/PanIndex/compare/v2.0.7...v2.0.8) (2021-11-15)
 
 ##### Bug Fixes
 
@@ -189,7 +189,7 @@
 
 - 新增『FTP』『WebDav』『OneDrive世纪互联』『和彩云』『谷歌云盘』五种网盘模式
 
-### [v2.0.7](https://github.com/libsgh/PanIndex/compare/v2.0.6...v2.0.7) (2021-10-14)
+### [v2.0.7](https://github.com/px-org/PanIndex/compare/v2.0.6...v2.0.7) (2021-10-14)
 
 **为方便以后配置扩展，此版本主要是对后台配置进行了重写，另外只有mdui主题做了功能增强，请尽量使用该主题**
 
@@ -216,7 +216,7 @@
 - 『阿里云盘』视频支持转码播放
 - 列表页支持`HEAD.md`渲染
 
-### [v2.0.6](https://github.com/libsgh/PanIndex/compare/v2.0.5...v2.0.6) (2021-09-27)
+### [v2.0.6](https://github.com/px-org/PanIndex/compare/v2.0.5...v2.0.6) (2021-09-27)
 
 **此版本是天翼云紧急修复版本，原计划的新版后台配置做了优化增强，改动较大，目前还在开发中，`dev`分支处于不可部署状态，由于最近事情较多，进度有点慢，大家耐心等待。**
 
@@ -227,7 +227,7 @@
 - 处理GetFileData文件找不到异常 
 - 解决关闭浏览器，个性化设置丢失问题
 
-### [v2.0.5](https://github.com/libsgh/PanIndex/compare/v2.0.4...v2.0.5) (2021-08-26)
+### [v2.0.5](https://github.com/px-org/PanIndex/compare/v2.0.4...v2.0.5) (2021-08-26)
 
 **若升级后密码文件夹无法访问，请删除cookie重试**
 
@@ -249,7 +249,7 @@
 - 「后台」增加配置项、首页账号切换、网站标题
 - 预览优化：视频播放支持webvtt字幕、音频播放支持播放列表、pdf、markdown预览
 
-### [v2.0.4](https://github.com/libsgh/PanIndex/compare/v2.0.3...v2.0.4) (2021-07-29)
+### [v2.0.4](https://github.com/px-org/PanIndex/compare/v2.0.3...v2.0.4) (2021-07-29)
 
 ##### Bug Fixes
 
@@ -268,13 +268,13 @@
 - 本地模式文件类型优化
 - 视频播放支持m3u8
 
-### [v2.0.3](https://github.com/libsgh/PanIndex/compare/v2.0.2...v2.0.3) (2021-07-02)
+### [v2.0.3](https://github.com/px-org/PanIndex/compare/v2.0.2...v2.0.3) (2021-07-02)
 
 ##### Bug Fixes
 
-* 解决环境变量配置DEBUG模式不打印SQL语句的问题 [8c8fdfb](https://github.com/libsgh/PanIndex/commit/8c8fdfb7e1de7142ae83679dad69fac93cd070e8)
-* 优化检测逻辑，避免一直错误登录 [3c802b8](https://github.com/libsgh/PanIndex/commit/3c802b8a049729d44bfbb3c65ffadc4c3f2ba87c)
+* 解决环境变量配置DEBUG模式不打印SQL语句的问题 [8c8fdfb](https://github.com/px-org/PanIndex/commit/8c8fdfb7e1de7142ae83679dad69fac93cd070e8)
+* 优化检测逻辑，避免一直错误登录 [3c802b8](https://github.com/px-org/PanIndex/commit/3c802b8a049729d44bfbb3c65ffadc4c3f2ba87c)
 
 ##### Features
 
-* 添加对Onedrive的支持 ([#42](https://github.com/libsgh/PanIndex/issues/42)) ([9098c02](https://github.com/libsgh/PanIndex/commit/9098c0263d0ae541f9d3b86e9775e8216845d132))
+* 添加对Onedrive的支持 ([#42](https://github.com/px-org/PanIndex/issues/42)) ([9098c02](https://github.com/px-org/PanIndex/commit/9098c0263d0ae541f9d3b86e9775e8216845d132))

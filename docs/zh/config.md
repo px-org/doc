@@ -37,7 +37,7 @@ location /file/ {
 * 网站图标(Favicon)：网站图标Url，为空将使用系统默认图标。根据网盘不同默认图标也不同。
 * 自定义底部信息(Footer)：可以在此处修改备案信息，及站长相关链接，支持html代码片段。
   ```html
-   ©2022 <a href="https://github.com/libsgh" target="_blank">libsgh</a>. All rights reserved.
+   ©2023 <a href="https://github.com/px-org" target="_blank">px-org</a>. All rights reserved.
   ```
   * 借助于Footer添加评论系统
     * [valine](https://valine.js.org/)
@@ -51,7 +51,7 @@ location /file/ {
           appKey: ''
         })
      </script>
-     ©2021 <a href="https://github.com/libsgh/PanIndex" target="_blank">PanIndex</a>. All rights reserved.
+     ©2021 <a href="https://github.com/px-org/PanIndex" target="_blank">PanIndex</a>. All rights reserved.
   ```
 * 自定义CSS：定义在页面head部分的html片段，可以是style，也可以指定外部css样式表。
     ```html
@@ -110,7 +110,7 @@ location /file/ {
     - S3：基于AWS S3的SDK实现，已通过测试的存储：aws S3、阿里云OSS（virtual hosted）、腾讯云COS、Oracle object-storage，注意配置公开访问权限及跨域设置，根目录ID设置：存储桶根目录留空，子目录格式：test/abc/。
     - PakPik：配置登录邮箱及密码，挂载全局根目录需设置目录ID为空
     > 由于阿里云的`refresh_token`和`access_token`有效期为2小时，第一次填入后，系统会自动刷新，所以`refresh_token`值会变，但是可以保持有效。
-    - 根目录ID(路径)：native、webdav、ftp的ID格式为目录的绝对路径，teambition请分别输入项目ID和目录ID，[如何获取？](https://libsgh.github.io/PanIndex/#/question?id=%e5%a6%82%e4%bd%95%e8%8e%b7%e5%8f%96%e7%9b%ae%e5%bd%95id%ef%bc%9f)
+    - 根目录ID(路径)：native、webdav、ftp的ID格式为目录的绝对路径，teambition请分别输入项目ID和目录ID，[如何获取？](https://docs.noki.icu/#/docs/zh/question?id=%e5%a6%82%e4%bd%95%e8%8e%b7%e5%8f%96%e7%9b%ae%e5%bd%95id%ef%bc%9f)
   
     > 这里填写你要分享的目录ID，如果你想分享网盘的根目录，天翼云为`-11`，阿里云盘为`root`，和彩云盘为`00019700101000000001`，S3留空
     - 流量中转：中转地址为空将使用本机中转，设置的CDN域名会替换下载地址中的域名。

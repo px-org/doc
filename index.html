@@ -8,12 +8,14 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
+  <!--<link href="//npm.elemecdn.com/vuetify@3.1.7/dist/vuetify.min.css" rel="stylesheet">-->
   <link rel="stylesheet" href="//npm.elemecdn.com/docsify-themeable@0.9.0/dist/css/theme-simple.css">
 </head>
 <body>
   <div id="app"></div>
   <!-- Docsify v4 -->
   <script>
+    let version = '';
     window.$docsify = {
       name: 'PanIndex',
       repo: 'px-org/PanIndex',
@@ -23,6 +25,7 @@
       homepage: 'docs/zh/introduction.md',
       relativePath: true,
       loadSidebar: 'docs/zh/_sidebar.md',
+      executeScript: true,
       maxLevel   : 3,
       subMaxLevel: 3,
       copyCode: {
@@ -42,10 +45,30 @@
       },
       alias: {
         '/.*/_sidebar.md': 'docs/zh/_sidebar.md'
-      }
-    }
+      },
+      plugins: [
+        function(hook) {
+          hook.doneEach(function() {
+            const versionText = document.querySelector('.cover-main h1 > span > small');
+            if (versionText) {
+              if(version!=''){
+                versionText.innerText = version;
+              }else{
+                fetch('https://api.github.com/repos/px-org/PanIndex/releases/latest')
+                  .then(response => response.json())
+                  .then(data =>  {
+                    version = versionText.innerText
+                    versionText.innerText = data.tag_name;
+                  });
+              }
+            }
+          });
+        }
+      ]
+    };
   </script>
 </body>
+<script src="//npm.elemecdn.com/vue@3/dist/vue.global.prod.js"></script>
 <script src="//npm.elemecdn.com/docsify@4.13.0/lib/docsify.min.js"></script>
 <script src="//npm.elemecdn.com/docsify-themeable@0.9.0/dist/js/docsify-themeable.min.js"></script>
 <script src="//npm.elemecdn.com/docsify@4.13.0/lib/plugins/zoom-image.min.js"></script>
@@ -56,6 +79,8 @@
 <script src="//npm.elemecdn.com/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
 <script src="//npm.elemecdn.com/docsify@4.13.0/lib/plugins/search.min.js"></script>
 <script src="//npm.elemecdn.com/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
+<!--<script src="https://npm.elemecdn.com/vuetify@3.1.7/dist/vuetify.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"></script>-->
 <script>
   const gitalk = new Gitalk({
     clientID: '1e4dd5af169f90a6bb8c',
