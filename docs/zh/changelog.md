@@ -1,3 +1,16 @@
+### [v3.1.3.dev](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev) (2023-03-09)
+> 为方便后期维护，PanIndex相关仓库已经移动到[px-org](https://github.com/px-org)下
+
+##### Bug Fixes
+
+- 阿里云盘签名过期导致的404
+
+##### Improve
+
+- 升级go版本1.20
+- 优化构建打包速度
+- 文档移动到单独的仓库[px-org/doc](https://github.com/px-org/doc)
+
 ### [v3.1.2](https://github.com/px-org/PanIndex/compare/v3.1.1...v3.1.2) (2023-02-16)
 
 > 预告vuetify主题，基于Vue3实现的纯静态UI，跳转更顺畅，测试预览：https://t2.noki.icu ，虽然计划接口和页面分离，但会尽量满足一站式部署。
