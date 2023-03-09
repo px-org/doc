@@ -12,6 +12,6 @@
 - [![Demo](../../_media/demo.png)Demo](https://t1.noki.icu)
 - [![Demo.Next](../../_media/demo.png)Demo.Next](https://t2.noki.icu)
 - [![PanIndex Tool](../../_media/demo.png)PanIndex Tool](https://pt.noki.icu/)
-- [![Github](../../_media/github.svg)Github](https://github.com/libsgh/PanIndex/)
+- [![Github](../../_media/github.svg)Github](https://github.com/px-org/PanIndex/)
 - [![Telegram](../../_media/telegram.svg)Telegram](https://t.me/PanIndex)
 - [![QQ_Group](../../_media/qq.svg)QQ_Group](https://qm.qq.com/cgi-bin/qm/qr?k=tDmhP8YbRaJBTpwbwM0BMgr0zQ9tRSU-&jump_from=webapi)
