@@ -1,4 +1,4 @@
-### [v3.1.3.dev](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev) (2023-03-09)
+### [v3.1.3.dev](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev) (2023-03-10)
 > 为方便后期维护，PanIndex相关仓库已经移动到[px-org](https://github.com/px-org)下
 
 ##### Bug Fixes
@@ -10,6 +10,7 @@
 - 升级go版本1.20
 - 优化构建打包速度
 - 文档移动到单独的仓库[px-org/doc](https://github.com/px-org/doc)
+- 新增云盘-[115云盘](https://115.com/)、[123云盘](https://www.123pan.com/)
 
 ### [v3.1.2](https://github.com/px-org/PanIndex/compare/v3.1.1...v3.1.2) (2023-02-16)
 

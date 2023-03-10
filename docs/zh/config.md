@@ -109,6 +109,8 @@ location /file/ {
     - GoogleDrive：按照[PanIndex Tool](https://pt.noki.icu/) 教程指引获取授权信息，请务必勾选流量中转，服务器需要特殊网络环境。
     - S3：基于AWS S3的SDK实现，已通过测试的存储：aws S3、阿里云OSS（virtual hosted）、腾讯云COS、Oracle object-storage，注意配置公开访问权限及跨域设置，根目录ID设置：存储桶根目录留空，子目录格式：test/abc/。
     - PakPik：配置登录邮箱及密码，挂载全局根目录需设置目录ID为空
+    - 123云盘：手机号、密码登录，挂载全局根目录需设置目录ID为0
+    - 115云盘：Cookie登录，获取方式参考和彩云，挂载全局根目录需设置目录ID为0，115由于下载的特殊性，只支持中转方式。
     > 由于阿里云的`refresh_token`和`access_token`有效期为2小时，第一次填入后，系统会自动刷新，所以`refresh_token`值会变，但是可以保持有效。
     - 根目录ID(路径)：native、webdav、ftp的ID格式为目录的绝对路径，teambition请分别输入项目ID和目录ID，[如何获取？](https://docs.noki.icu/#/docs/zh/question?id=%e5%a6%82%e4%bd%95%e8%8e%b7%e5%8f%96%e7%9b%ae%e5%bd%95id%ef%bc%9f)
   
