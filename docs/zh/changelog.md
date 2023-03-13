@@ -1,5 +1,5 @@
 ### [v3.1.3](https://github.com/px-org/PanIndex/compare/v3.1.2...v3.1.3) (2023-03-13)
-> 为方便后期维护，PanIndex相关仓库已经移动到[px-org](https://github.com/px-org)下
+> 为方便后期维护，PanIndex相关仓库已经移动到[px-org](https://github.com/px-org)下，修复登录安全认证漏洞，**强烈建议升级此版本！**
 
 ##### Bug Fixes
 
