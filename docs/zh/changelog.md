@@ -1,16 +1,18 @@
-### [v3.1.3.dev](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev) (2023-03-10)
+### [v3.1.3](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev) (2023-03-13)
 > 为方便后期维护，PanIndex相关仓库已经移动到[px-org](https://github.com/px-org)下
 
 ##### Bug Fixes
 
 - 阿里云盘签名过期导致的404
+- 登录安全认证
 
 ##### Improve
 
 - 升级go版本1.20
 - 优化构建打包速度
+- 「后台管理」新增分享短链管理，同时分享按钮仅在登录状态下可用。
 - 文档移动到单独的仓库[px-org/doc](https://github.com/px-org/doc)
-- 新增云盘-[115云盘](https://115.com/)、[123云盘](https://www.123pan.com/)
+- 新增云盘支持-[115云盘](https://115.com/)、[123云盘](https://www.123pan.com/)
 
 ### [v3.1.2](https://github.com/px-org/PanIndex/compare/v3.1.1...v3.1.2) (2023-02-16)
 
