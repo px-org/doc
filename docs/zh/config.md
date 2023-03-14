@@ -104,7 +104,8 @@ location /file/ {
     - Teambition：阿里teambition项目盘，根目录ID需要填写项目ID。
     - Teambition国际服：阿里teambition国际盘，目前只有项目文件，目录ID为项目ID
     - 和彩云：由于登录会有验证码，所以不会采用自动登录的方式，请登录网页版复制完整COOKIE并输入手机号，COOKIE有效期为一个月。
-    - Aliyundrive：阿里云盘，需要填入**手机端的**的`refresh_token`，点击文本框下方的扫码获取链接。
+    - 阿里云盘：需要填入**手机端的**的`refresh_token`，点击文本框下方的扫码获取链接。
+    - 阿里云盘（分享链接）：在阿里云盘配置的基础上，需要配置分享ID、密码。
     - OneDrive、世纪互联：按照[PanIndex Tool](https://pt.noki.icu/) 教程指引获取授权信息，其中设置网站ID可挂载SharePoint挂载。
     - GoogleDrive：按照[PanIndex Tool](https://pt.noki.icu/) 教程指引获取授权信息，请务必勾选流量中转，服务器需要特殊网络环境。
     - S3：基于AWS S3的SDK实现，已通过测试的存储：aws S3、阿里云OSS（virtual hosted）、腾讯云COS、Oracle object-storage，注意配置公开访问权限及跨域设置，根目录ID设置：存储桶根目录留空，子目录格式：test/abc/。

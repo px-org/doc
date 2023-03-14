@@ -1,3 +1,13 @@
+### [v3.1.4.dev](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev) (2023-03-14)
+
+##### Bug Fixes
+
+- 「123」解决根目录`0`无法挂载
+
+##### Features
+
+- 「阿里云盘」支持分享链接
+
 ### [v3.1.3](https://github.com/px-org/PanIndex/compare/v3.1.2...v3.1.3) (2023-03-13)
 > 为方便后期维护，PanIndex相关仓库已经移动到[px-org](https://github.com/px-org)下，修复登录安全认证漏洞，**强烈建议升级此版本！**
 
