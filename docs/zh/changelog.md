@@ -1,8 +1,9 @@
-### [v3.1.4.dev](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev) (2023-03-14)
+### [v3.1.4.dev](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev) (2023-04-26)
 
 ##### Bug Fixes
 
 - 「123」解决根目录`0`无法挂载
+- 「123」解决下载404错误
 
 ##### Features
 
