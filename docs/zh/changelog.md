@@ -1,10 +1,12 @@
-### [v3.1.4.dev](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev) (2023-05-05)
+### [v3.1.4](https://github.com/px-org/PanIndex/compare/v3.1.3...v3.1.4) (2023-05-17)
+> 主要修复天翼云盘登录问题，另外根据网友反馈，阿里云盘已经开始限速。
 
 ##### Bug Fixes
 
 - 「123」解决根目录`0`无法挂载
 - 「123」解决下载404错误
-- 「123」Fix ip forbidden
+- ~~「123」Fix ip forbidden~~(123盘已经开始封ip，目前不建议使用)
+- 「cloud189」修复天翼云盘登录问题 by @kasuganosoras
 
 ##### Features
 
