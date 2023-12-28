@@ -1,8 +1,10 @@
-### [v3.1.5.dev](https://nightly.link/px-org/PanIndex/workflows/nightly-build/dev) (2023-11-21)
+### [v3.1.5](https://github.com/px-org/PanIndex/compare/v3.1.4...v3.1.5) (2023-12-28)
 
 ##### Bug Fixes
 
-- fonts cdn load error
+- 字体图标显示异常
+- 「139」修复登录失败
+- 文件过多导致得缓存失败
 
 ### [v3.1.4](https://github.com/px-org/PanIndex/compare/v3.1.3...v3.1.4) (2023-05-17)
 > 主要修复天翼云盘登录问题，另外根据网友反馈，阿里云盘已经开始限速。
